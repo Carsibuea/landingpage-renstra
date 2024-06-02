@@ -795,6 +795,14 @@ video {
   margin-top: 102px;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1436,6 +1444,11 @@ input[type="text"]:focus~.input-text {
 }
 
 @media (min-width: 640px) {
+  .sm\:-mx-7 {
+    margin-left: -1.75rem;
+    margin-right: -1.75rem;
+  }
+
   .sm\:mt-0 {
     margin-top: 0px;
   }
